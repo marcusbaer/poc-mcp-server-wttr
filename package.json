@@ -1,0 +1,35 @@
+{
+  "name": "poc-mcp-server-wttr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mcp-server.js",
+  "type": "module",
+  "bin": {
+    "mcp-server-wttr": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusbaer/poc-mcp-server-wttr.git"
+  },
+  "author": "Marcus Baer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusbaer/poc-mcp-server-wttr/issues"
+  },
+  "homepage": "https://github.com/marcusbaer/poc-mcp-server-wttr#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.23.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
