@@ -143,7 +143,7 @@ server.tool(
             ]
         };
     }
-); 
+);
 
 async function main() {
     const transport = new StdioServerTransport();
