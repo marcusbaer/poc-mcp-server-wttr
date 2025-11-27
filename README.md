@@ -7,6 +7,10 @@ This MCP server is a playground to understand how MCP is working. It not only in
 - https://www.youtube.com/watch?v=Y4bpWRLdRoA for a weather example
 - https://github.com/modelcontextprotocol/servers/tree/main/src/memory
 - https://modelcontextprotocol.io/examples
+- https://milvus.io/ai-quick-reference/how-is-user-context-maintained-across-model-context-protocol-mcp-sessions
+- https://modelcontextprotocol.io/specification/2025-06-18/basic/transports
+- https://simplescraper.io/blog/how-to-mcp
+- https://modelcontextprotocol.io/docs/learn/architecture
 
 ## Tools
 
