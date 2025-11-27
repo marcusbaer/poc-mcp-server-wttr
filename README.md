@@ -11,6 +11,16 @@ This MCP server is a playground to understand how MCP is working. It not only in
 - https://modelcontextprotocol.io/specification/2025-06-18/basic/transports
 - https://simplescraper.io/blog/how-to-mcp
 - https://modelcontextprotocol.io/docs/learn/architecture
+- https://modelcontextprotocol.io/docs/sdk
+- https://github.com/modelcontextprotocol/typescript-sdk
+- https://github.com/modelcontextprotocol/inspector
+
+## MCP Inspector 
+
+
+```sh
+docker run --rm --network host -p 6274:6274 -p 6277:6277 ghcr.io/modelcontextprotocol/inspector:latest
+```
 
 ## Tools
 
