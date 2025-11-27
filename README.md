@@ -84,3 +84,7 @@ Follow these steps for each interaction:
      b) Connect them to the current entities using relations
      c) Store facts about them as observations
 ```
+
+## Read More in Relation
+
+- https://docs.continue.dev/customize/deep-dives/rules
