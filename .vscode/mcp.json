@@ -3,7 +3,7 @@
     "poc-mcp-server-wttr": {
       "type": "stdio",
       "command": "node",
-      "args": ["/Users/marbaer/Projekte/poc-mcp-server-wttr/build/index.js"]
+      "args": ["~/Projekte/poc-mcp-server-wttr/build/index.js"]
     }
   },
   "inputs": []
