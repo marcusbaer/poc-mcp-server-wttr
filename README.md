@@ -2,6 +2,30 @@
 
 This MCP server is a playground to understand how MCP is working. It not only includes a weather service, using wttr.in, but also covers a memory example, based on https://modelcontextprotocol.io/examples.
 
+## Installation
+
+```sh
+npm install -g poc-mcp-server-wttr
+```
+
+Setup MCP Server
+
+```json
+{
+  "servers": {
+    "POC MCP Server Wttr": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+         "-y",
+         "poc-mcp-server-wttr"
+      ]
+    }
+  },
+  "inputs": []
+}
+```
+
 ## Further Read
 
 - https://www.youtube.com/watch?v=Y4bpWRLdRoA for a weather example
