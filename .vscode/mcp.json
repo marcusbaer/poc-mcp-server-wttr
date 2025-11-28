@@ -1,12 +1,10 @@
 {
-	"servers": {
-		"poc-mcp-server-wttr": {
-			"type": "stdio",
-			"command": "node",
-			"args": [
-				"/Users/marbaer/Projekte/poc-mcp-server-wttr/build/index.js"
-			]
-		}
-	},
-	"inputs": []
+  "servers": {
+    "poc-mcp-server-wttr": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/Users/marbaer/Projekte/poc-mcp-server-wttr/build/index.js"]
+    }
+  },
+  "inputs": []
 }
